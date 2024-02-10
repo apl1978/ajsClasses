@@ -3,12 +3,12 @@ export default class Character {
 
     if (name.length < 2 || name.length > 10) {
         throw new Error('Длина имени должна быть от 2 до 10 символов');
-    };
+    }
     const allowedTypes = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'];
 
     if (!allowedTypes.includes(type)) {
         throw new Error('Некорректный тип персонажа');
-    };
+    }
 
     const attackObj = {
         'Bowman': 25,

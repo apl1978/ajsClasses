@@ -2,7 +2,8 @@ module.exports = {
   'env': {
     'browser': true,
     'es2021': true,
-    'node': true
+    'node': true,
+    'jest': true
   },
   'extends': 'eslint:recommended',
   'overrides': [
@@ -17,5 +18,7 @@ module.exports = {
     'ecmaVersion': 'latest',
     'sourceType': 'module'
   },
-  'rules': {}
+  'rules': {
+    'no-unused-vars': 'warn',
+  }
 }
