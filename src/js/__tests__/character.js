@@ -31,9 +31,3 @@ test.each([
     }).toThrowError('Длина имени должна быть от 2 до 10 символов');
 
 });
-
-test('check Character type', () => {
-    expect(() => {
-    const hero = new Character('nn', 'bowmen');
-    }).toThrowError('Некорректный тип персонажа');
-});

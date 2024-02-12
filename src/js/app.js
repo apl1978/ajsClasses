@@ -1,6 +1,6 @@
 import Bowerman from './bowerman';
 
-const bowerman = new Bowerman('Bow');
+const bowerman = new Bowerman('Bow', 'Bowman');
 
 
 
